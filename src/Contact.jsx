@@ -73,7 +73,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="text-xs text-neutral-500 uppercase tracking-wider mb-1 font-semibold">Call Us Directly</p>
-                    <p className="text-white font-bold text-lg">(555) 123-4567</p>
+                    <p className="text-white font-bold text-lg">(843) 368-5085</p>
                     <p className="text-neutral-400 text-sm mt-0.5">Mon–Sat, 7AM–7PM</p>
                   </div>
                 </a>
