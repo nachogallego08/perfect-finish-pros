@@ -29,12 +29,16 @@ export default function Contact() {
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_60%_60%_at_50%_0%,rgba(249,115,22,0.12),transparent)]" />
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-orange-500 font-semibold tracking-widest uppercase text-sm mb-3">Get In Touch</p>
-          <h1 className="text-5xl sm:text-6xl md:text-7xl font-black text-white mb-6" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>
-            LET'S TALK<br />
+          <h1
+            className="text-5xl sm:text-6xl md:text-7xl font-black text-white mb-6"
+            style={{ fontFamily: "'Barlow Condensed', sans-serif" }}
+          >
+            LET&apos;S TALK
+            <br />
             <span className="text-orange-500">ABOUT YOUR PROJECT</span>
           </h1>
           <p className="text-neutral-400 text-lg max-w-xl mx-auto leading-relaxed">
-            Free estimates, no obligation. Fill out the form below or call us directly — we respond quickly.
+            Free estimates, no obligation. Fill out the form below or contact us directly — we respond quickly.
           </p>
         </div>
       </section>
@@ -42,11 +46,16 @@ export default function Contact() {
       {/* Main Content */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-5 gap-12 items-start">
-
           {/* Contact Info */}
           <div className="lg:col-span-2 space-y-8">
             <div>
-              <h2 className="text-2xl font-black text-white mb-6" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>CONTACT INFORMATION</h2>
+              <h2
+                className="text-2xl font-black text-white mb-6"
+                style={{ fontFamily: "'Barlow Condensed', sans-serif" }}
+              >
+                CONTACT INFORMATION
+              </h2>
+
               <div className="space-y-5">
                 <a
                   href="tel:+15551234567"
@@ -54,7 +63,12 @@ export default function Contact() {
                 >
                   <div className="w-11 h-11 rounded-xl bg-orange-500/10 flex items-center justify-center flex-shrink-0 group-hover:bg-orange-500/20 transition-colors">
                     <svg className="w-5 h-5 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                      />
                     </svg>
                   </div>
                   <div>
@@ -65,32 +79,69 @@ export default function Contact() {
                 </a>
 
                 <a
-                  href="mailto:info@perfectfinishpros.com"
+                  href="mailto:Perfectfinishpro26@gmail.com"
                   className="flex items-start gap-4 p-5 rounded-2xl bg-neutral-900 border border-white/5 hover:border-orange-500/30 transition-all group"
                 >
                   <div className="w-11 h-11 rounded-xl bg-orange-500/10 flex items-center justify-center flex-shrink-0 group-hover:bg-orange-500/20 transition-colors">
                     <svg className="w-5 h-5 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                      />
                     </svg>
                   </div>
                   <div>
                     <p className="text-xs text-neutral-500 uppercase tracking-wider mb-1 font-semibold">Email Us</p>
-                    <p className="text-white font-semibold">info@perfectfinishpros.com</p>
+                    <p className="text-white font-semibold">Perfectfinishpro26@gmail.com</p>
                     <p className="text-neutral-400 text-sm mt-0.5">We reply within 24 hours</p>
+                  </div>
+                </a>
+
+                <a
+                  href="https://www.instagram.com/perfectfinishprosllc/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-start gap-4 p-5 rounded-2xl bg-neutral-900 border border-white/5 hover:border-orange-500/30 transition-all group"
+                >
+                  <div className="w-11 h-11 rounded-xl bg-orange-500/10 flex items-center justify-center flex-shrink-0 group-hover:bg-orange-500/20 transition-colors">
+                    <svg
+                      className="w-5 h-5 text-orange-500"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <rect x="3" y="3" width="18" height="18" rx="5" ry="5" strokeWidth={2} />
+                      <path strokeWidth={2} d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                      <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" strokeWidth={2} strokeLinecap="round" />
+                    </svg>
+                  </div>
+                  <div>
+                    <p className="text-xs text-neutral-500 uppercase tracking-wider mb-1 font-semibold">Instagram</p>
+                    <p className="text-white font-semibold">@perfectfinishprosllc</p>
+                    <p className="text-neutral-400 text-sm mt-0.5">Follow us and see our latest projects</p>
                   </div>
                 </a>
 
                 <div className="flex items-start gap-4 p-5 rounded-2xl bg-neutral-900 border border-white/5">
                   <div className="w-11 h-11 rounded-xl bg-orange-500/10 flex items-center justify-center flex-shrink-0">
                     <svg className="w-5 h-5 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                      />
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                     </svg>
                   </div>
                   <div>
                     <p className="text-xs text-neutral-500 uppercase tracking-wider mb-1 font-semibold">Service Area</p>
                     <p className="text-white font-semibold">Savannah, GA & Surroundings</p>
-                    <p className="text-neutral-400 text-sm mt-1">Pooler · Richmond Hill · Hinesville · Rincon · Guyton · Statesboro</p>
+                    <p className="text-neutral-400 text-sm mt-1">
+                      Pooler · Richmond Hill · Hinesville · Rincon · Guyton · Statesboro
+                    </p>
                   </div>
                 </div>
               </div>
@@ -125,14 +176,20 @@ export default function Contact() {
               {submitted ? (
                 <div className="text-center py-16">
                   <div className="text-6xl mb-5">✅</div>
-                  <h3 className="text-3xl font-black text-white mb-3" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>
+                  <h3
+                    className="text-3xl font-black text-white mb-3"
+                    style={{ fontFamily: "'Barlow Condensed', sans-serif" }}
+                  >
                     MESSAGE SENT!
                   </h3>
                   <p className="text-neutral-400 text-lg mb-8">
-                    Thank you, <span className="text-white font-semibold">{form.name}</span>! We've received your request and will be in touch within 24 hours.
+                    Thank you, <span className="text-white font-semibold">{form.name}</span>! We&apos;ve received your request and will be in touch within 24 hours.
                   </p>
                   <button
-                    onClick={() => { setSubmitted(false); setForm({ name: '', email: '', phone: '', service: '', message: '' }); }}
+                    onClick={() => {
+                      setSubmitted(false);
+                      setForm({ name: '', email: '', phone: '', service: '', message: '' });
+                    }}
                     className="px-8 py-3 bg-orange-500 hover:bg-orange-400 text-white font-bold rounded-xl transition-all"
                   >
                     Send Another Message
@@ -140,7 +197,10 @@ export default function Contact() {
                 </div>
               ) : (
                 <>
-                  <h2 className="text-3xl font-black text-white mb-2" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>
+                  <h2
+                    className="text-3xl font-black text-white mb-2"
+                    style={{ fontFamily: "'Barlow Condensed', sans-serif" }}
+                  >
                     REQUEST A FREE ESTIMATE
                   </h2>
                   <p className="text-neutral-400 text-sm mb-8">All fields marked with * are required.</p>
@@ -205,7 +265,9 @@ export default function Contact() {
                       >
                         <option value="" disabled>Select a service...</option>
                         {services.map((s) => (
-                          <option key={s} value={s} className="bg-neutral-800">{s}</option>
+                          <option key={s} value={s} className="bg-neutral-800">
+                            {s}
+                          </option>
                         ))}
                       </select>
                     </div>
