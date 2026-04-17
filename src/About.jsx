@@ -8,8 +8,8 @@ const values = [
 ];
 
 const stats = [
-  { num: '10+', label: 'Years of Experience' },
-  { num: '500+', label: 'Projects Completed' },
+  { num: '1+', label: 'Years of Experience' },
+  { num: '100+', label: 'Projects Completed' },
   { num: '6', label: 'Trades Mastered' },
   { num: '100%', label: 'Licensed & Insured' },
 ];
