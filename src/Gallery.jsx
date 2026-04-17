@@ -18,26 +18,33 @@ export default function Gallery() {
   ]
 
   return (
-    <section className="bg-white min-h-screen py-16 px-6">
+    <section className="bg-neutral-950 text-white min-h-screen pt-32 pb-20 px-6">
       <div className="max-w-7xl mx-auto">
-        <h1 className="text-4xl md:text-5xl font-bold text-center text-gray-900 mb-4">
-          Gallery
-        </h1>
+        <div className="text-center mb-14">
+          <p className="text-orange-400 text-sm font-semibold tracking-[0.2em] uppercase mb-3">
+            Our Work
+          </p>
+          <h1
+            className="text-4xl md:text-6xl font-black tracking-tight"
+            style={{ fontFamily: "'Barlow Condensed', sans-serif" }}
+          >
+            Gallery
+          </h1>
+          <p className="text-neutral-400 max-w-2xl mx-auto mt-4 text-base md:text-lg">
+            Take a look at some of our recent painting and finishing projects.
+          </p>
+        </div>
 
-        <p className="text-center text-gray-600 max-w-2xl mx-auto mb-12">
-          Explore some of our recent painting and finishing projects.
-        </p>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {images.map((image, index) => (
             <div
               key={index}
-              className="overflow-hidden rounded-2xl shadow-md hover:shadow-xl transition duration-300"
+              className="group overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-lg"
             >
               <img
                 src={image}
                 alt={`Perfect Finish Pros project ${index + 1}`}
-                className="w-full h-72 object-cover hover:scale-105 transition duration-300"
+                className="w-full h-72 object-cover transition-transform duration-500 group-hover:scale-105"
                 loading="lazy"
               />
             </div>
