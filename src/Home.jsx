@@ -98,7 +98,7 @@ export default function Home() {
               href="tel:+15551234567"
               className="px-8 py-4 bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/20 text-white font-bold text-lg rounded-xl transition-all duration-200 backdrop-blur-sm"
             >
-              📞 Call Now: (555) 123-4567
+              📞 Call Now: (843)368-5085 
             </a>
           </div>
 
