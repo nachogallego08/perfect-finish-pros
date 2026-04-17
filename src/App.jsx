@@ -1,7 +1,6 @@
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom'
 import { useEffect } from 'react'
 
-// IMPORTS CORREGIDOS (sin /components ni /pages)
 import Navbar from './Navbar.jsx'
 import Footer from './Footer.jsx'
 import Home from './Home.jsx'
@@ -9,6 +8,7 @@ import Services from './Services.jsx'
 import Projects from './Projects.jsx'
 import About from './About.jsx'
 import Contact from './Contact.jsx'
+import Gallery from './Gallery.jsx'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -33,6 +33,7 @@ export default function App() {
             <Route path="/" element={<Home />} />
             <Route path="/services" element={<Services />} />
             <Route path="/projects" element={<Projects />} />
+            <Route path="/gallery" element={<Gallery />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
