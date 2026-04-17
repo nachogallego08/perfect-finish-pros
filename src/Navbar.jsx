@@ -18,6 +18,7 @@ export default function Navbar() {
     { to: '/', label: 'Home' },
     { to: '/services', label: 'Services' },
     { to: '/projects', label: 'Projects' },
+    { to: '/gallery', label: 'Gallery' },
     { to: '/about', label: 'About' },
     { to: '/contact', label: 'Contact' },
   ];
@@ -35,7 +36,6 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          {/* Logo */}
           <Link to="/" className="flex items-center gap-3 group">
             <div className="w-10 h-10 rounded-lg bg-orange-500 flex items-center justify-center font-black text-white text-lg shadow-lg shadow-orange-500/30 group-hover:scale-110 transition-transform duration-300">
               P
@@ -50,7 +50,6 @@ export default function Navbar() {
             </div>
           </Link>
 
-          {/* Desktop Nav */}
           <nav className="hidden md:flex items-center gap-1">
             {links.map(({ to, label }) => (
               <Link
@@ -73,7 +72,6 @@ export default function Navbar() {
             </Link>
           </nav>
 
-          {/* Mobile toggle */}
           <button
             onClick={() => setMenuOpen(!menuOpen)}
             className="md:hidden p-2 rounded-lg text-neutral-400 hover:text-white hover:bg-white/10 transition-colors"
@@ -88,7 +86,6 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* Mobile Menu */}
       <div className={`md:hidden transition-all duration-300 overflow-hidden ${menuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}>
         <div className="bg-neutral-950/98 backdrop-blur-md border-t border-white/5 px-4 py-4 flex flex-col gap-1">
           {links.map(({ to, label }) => (
