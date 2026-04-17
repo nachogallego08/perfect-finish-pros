@@ -57,7 +57,7 @@ export default function About() {
             </div>
             {/* Floating badge */}
             <div className="absolute -bottom-5 -right-5 w-32 h-32 rounded-2xl bg-orange-500 flex flex-col items-center justify-center text-center shadow-2xl shadow-orange-500/40">
-              <div className="text-3xl font-black text-white" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>10+</div>
+              <div className="text-3xl font-black text-white" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>1+</div>
               <div className="text-orange-100 text-xs font-semibold leading-tight mt-0.5">Years<br />Experience</div>
             </div>
           </div>
