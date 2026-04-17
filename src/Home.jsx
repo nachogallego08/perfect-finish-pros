@@ -282,7 +282,7 @@ export default function Home() {
               href="tel:+15551234567"
               className="px-10 py-4 bg-orange-600 text-white font-black text-lg rounded-xl hover:bg-orange-700 transition-all border border-white/20"
             >
-              (555) 123-4567
+              (843)368-5085 
             </a>
           </div>
         </div>
