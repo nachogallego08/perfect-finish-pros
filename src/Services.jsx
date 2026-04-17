@@ -182,7 +182,7 @@ export default function Services() {
                 Contact Us Today
               </Link>
               <a href="tel:+15551234567" className="px-8 py-3 bg-orange-600 text-white font-bold rounded-xl hover:bg-orange-700 transition-all border border-white/20">
-                (555) 123-4567
+                (843)368-5085 
               </a>
             </div>
           </div>
