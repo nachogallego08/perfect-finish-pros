@@ -14,8 +14,8 @@ export default function Gallery() {
     '/gallery/Image-13.jpeg',
     '/gallery/Image-14.jpeg',
     '/gallery/Image-15.jpeg',
-    '/gallery/Image-16.jpeg',
-  ]
+    '/gallery/Image-16.jpeg', // 👈 IMPORTANTE
+  ];
 
   return (
     <section className="bg-neutral-950 text-white min-h-screen pt-32 pb-20 px-6">
@@ -52,5 +52,5 @@ export default function Gallery() {
         </div>
       </div>
     </section>
-  )
+  );
 }
