@@ -20,7 +20,7 @@ export default function Footer() {
             <div className="flex items-center gap-3 mb-5">
               <div className="flex items-center justify-center">
                 <img
-                  src="/logo.jpg"
+                  src="/logo/logo.jpg"
                   alt="Perfect Finish Pros logo"
                   className="h-12 w-auto object-contain"
                 />
@@ -148,7 +148,7 @@ export default function Footer() {
                 </div>
                 <div>
                   <div className="text-xs text-neutral-600 uppercase tracking-wider mb-0.5">Service Area</div>
-                  <div className="text-sm">Savannah, GA & Surrounding Areas</div>
+                  <div className="text-sm">Savannah, GA &amp; Surrounding Areas</div>
                 </div>
               </li>
             </ul>
@@ -163,7 +163,7 @@ export default function Footer() {
             © {new Date().getFullYear()} Perfect Finish Pros LLC. All rights reserved.
           </p>
           <p className="text-neutral-700 text-sm">
-            Licensed & Insured · Savannah, GA
+            Licensed &amp; Insured · Savannah, GA
           </p>
         </div>
       </div>
