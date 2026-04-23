@@ -37,11 +37,19 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <Link to="/" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 rounded-lg bg-orange-500 flex items-center justify-center font-black text-white text-lg shadow-lg shadow-orange-500/30 group-hover:scale-110 transition-transform duration-300">
-              P
+            <div className="flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
+              <img
+                src="/logo.jpg"
+                alt="Perfect Finish Pros logo"
+                className="h-12 w-auto object-contain"
+              />
             </div>
+
             <div className="leading-tight">
-              <div className="font-black text-white tracking-tight text-lg" style={{ fontFamily: "'Barlow Condensed', sans-serif", letterSpacing: '-0.01em' }}>
+              <div
+                className="font-black text-white tracking-tight text-lg"
+                style={{ fontFamily: "'Barlow Condensed', sans-serif", letterSpacing: '-0.01em' }}
+              >
                 PERFECT FINISH
               </div>
               <div className="text-orange-400 text-xs font-semibold tracking-[0.18em] uppercase -mt-0.5">
