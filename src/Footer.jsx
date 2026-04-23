@@ -18,20 +18,31 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3 mb-5">
-              <div className="w-10 h-10 rounded-lg bg-orange-500 flex items-center justify-center font-black text-white text-lg">
-                P
+              <div className="flex items-center justify-center">
+                <img
+                  src="/logo.jpg"
+                  alt="Perfect Finish Pros logo"
+                  className="h-12 w-auto object-contain"
+                />
               </div>
+
               <div className="leading-tight">
-                <div className="font-black text-white tracking-tight text-lg" style={{ fontFamily: "'Barlow Condensed', sans-serif" }}>
+                <div
+                  className="font-black text-white tracking-tight text-lg"
+                  style={{ fontFamily: "'Barlow Condensed', sans-serif" }}
+                >
                   PERFECT FINISH
                 </div>
-                <div className="text-orange-400 text-xs font-semibold tracking-[0.18em] uppercase -mt-0.5">Pros LLC</div>
+                <div className="text-orange-400 text-xs font-semibold tracking-[0.18em] uppercase -mt-0.5">
+                  Pros LLC
+                </div>
               </div>
             </div>
+
             <p className="text-neutral-400 text-sm leading-relaxed mb-6">
               Quality craftsmanship and reliable service for all your home improvement needs. We take pride in every project — big or small.
             </p>
-            {/* Instagram */}
+
             <a
               href="https://instagram.com"
               target="_blank"
@@ -53,7 +64,10 @@ export default function Footer() {
             <ul className="space-y-2.5">
               {services.map((s) => (
                 <li key={s}>
-                  <Link to="/services" className="text-neutral-400 hover:text-orange-400 text-sm transition-colors flex items-center gap-2 group">
+                  <Link
+                    to="/services"
+                    className="text-neutral-400 hover:text-orange-400 text-sm transition-colors flex items-center gap-2 group"
+                  >
                     <span className="w-1 h-1 rounded-full bg-orange-500/50 group-hover:bg-orange-400 transition-colors" />
                     {s}
                   </Link>
@@ -75,7 +89,10 @@ export default function Footer() {
                 { to: '/contact', label: 'Get a Free Quote' },
               ].map(({ to, label }) => (
                 <li key={label}>
-                  <Link to={to} className="text-neutral-400 hover:text-orange-400 text-sm transition-colors flex items-center gap-2 group">
+                  <Link
+                    to={to}
+                    className="text-neutral-400 hover:text-orange-400 text-sm transition-colors flex items-center gap-2 group"
+                  >
                     <span className="w-1 h-1 rounded-full bg-orange-500/50 group-hover:bg-orange-400 transition-colors" />
                     {label}
                   </Link>
@@ -89,7 +106,10 @@ export default function Footer() {
             <h4 className="text-white font-bold text-sm tracking-widest uppercase mb-5">Contact Us</h4>
             <ul className="space-y-4">
               <li>
-                <a href="tel:+15551234567" className="flex items-start gap-3 text-neutral-400 hover:text-white transition-colors group">
+                <a
+                  href="tel:+15551234567"
+                  className="flex items-start gap-3 text-neutral-400 hover:text-white transition-colors group"
+                >
                   <div className="w-8 h-8 rounded-lg bg-white/5 group-hover:bg-orange-500/10 flex items-center justify-center flex-shrink-0 mt-0.5 transition-colors">
                     <svg className="w-4 h-4 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
@@ -101,8 +121,12 @@ export default function Footer() {
                   </div>
                 </a>
               </li>
+
               <li>
-                <a href="mailto:info@perfectfinishpros.com" className="flex items-start gap-3 text-neutral-400 hover:text-white transition-colors group">
+                <a
+                  href="mailto:info@perfectfinishpros.com"
+                  className="flex items-start gap-3 text-neutral-400 hover:text-white transition-colors group"
+                >
                   <div className="w-8 h-8 rounded-lg bg-white/5 group-hover:bg-orange-500/10 flex items-center justify-center flex-shrink-0 mt-0.5 transition-colors">
                     <svg className="w-4 h-4 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
@@ -114,6 +138,7 @@ export default function Footer() {
                   </div>
                 </a>
               </li>
+
               <li className="flex items-start gap-3 text-neutral-400">
                 <div className="w-8 h-8 rounded-lg bg-white/5 flex items-center justify-center flex-shrink-0 mt-0.5">
                   <svg className="w-4 h-4 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
