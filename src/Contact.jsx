@@ -58,7 +58,7 @@ export default function Contact() {
 
               <div className="space-y-5">
                 <a
-                  href="tel:+15551234567"
+                  href="tel:+18433685085"
                   className="flex items-start gap-4 p-5 rounded-2xl bg-neutral-900 border border-white/5 hover:border-orange-500/30 transition-all group"
                 >
                   <div className="w-11 h-11 rounded-xl bg-orange-500/10 flex items-center justify-center flex-shrink-0 group-hover:bg-orange-500/20 transition-colors">
