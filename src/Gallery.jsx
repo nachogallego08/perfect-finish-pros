@@ -14,7 +14,7 @@ export default function Gallery() {
     '/gallery/Image-13.jpeg',
     '/gallery/Image-14.jpeg',
     '/gallery/Image-15.jpeg',
-    '/gallery/Image-16.jpeg', // 👈 IMPORTANTE
+    '/gallery/Image-16.jpeg',
   ];
 
   return (
