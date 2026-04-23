@@ -72,7 +72,8 @@ export default function Home() {
         <div
           className="absolute inset-0"
           style={{
-            backgroundImage: `repeating-linear-gradient(0deg, transparent, transparent 79px, rgba(255,255,255,0.015) 79px, rgba(255,255,255,0.015) 80px), repeating-linear-gradient(90deg, transparent, transparent 79px, rgba(255,255,255,0.015) 79px, rgba(255,255,255,0.015) 80px)`
+            backgroundImage:
+              'repeating-linear-gradient(0deg, transparent, transparent 79px, rgba(255,255,255,0.015) 79px, rgba(255,255,255,0.015) 80px), repeating-linear-gradient(90deg, transparent, transparent 79px, rgba(255,255,255,0.015) 79px, rgba(255,255,255,0.015) 80px)',
           }}
         />
         <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-neutral-900 to-transparent" />
@@ -85,7 +86,7 @@ export default function Home() {
 
           <div className="flex justify-center mb-8">
             <img
-              src="/logo.jpg"
+              src="/logo/logo.jpg"
               alt="Perfect Finish Pros logo"
               className="h-24 sm:h-28 md:h-32 w-auto object-contain drop-shadow-xl"
             />
@@ -123,7 +124,7 @@ export default function Home() {
           </div>
 
           <div className="flex flex-wrap items-center justify-center gap-6 mt-14 text-sm text-neutral-500">
-            <div className="flex items-center gap-2"><span className="text-orange-500">✓</span> Licensed & Insured</div>
+            <div className="flex items-center gap-2"><span className="text-orange-500">✓</span> Licensed &amp; Insured</div>
             <div className="w-px h-4 bg-white/10" />
             <div className="flex items-center gap-2"><span className="text-orange-500">✓</span> Free Estimates</div>
             <div className="w-px h-4 bg-white/10" />
@@ -312,7 +313,8 @@ export default function Home() {
         <div
           className="absolute inset-0"
           style={{
-            backgroundImage: `repeating-linear-gradient(45deg, transparent, transparent 39px, rgba(255,255,255,0.03) 39px, rgba(255,255,255,0.03) 40px)`
+            backgroundImage:
+              'repeating-linear-gradient(45deg, transparent, transparent 39px, rgba(255,255,255,0.03) 39px, rgba(255,255,255,0.03) 40px)',
           }}
         />
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
