@@ -8,16 +8,17 @@ export default {
     extend: {
       colors: {
         brand: {
-          navy: '#1E3A5F',      // Color principal (navbar, botones)
+          navy: '#1E3A5F',      // Principal (navbar, botones)
           navyDark: '#16324F',  // Hover
-          red: '#C23B22',       // CTA secundario
+          red: '#C23B22',       // CTA
           light: '#F5F7FA',     // Fondos suaves
           text: '#111827',      // Texto principal
           muted: '#6B7280',     // Texto secundario
         },
       },
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
+        sans: ['DM Sans', 'sans-serif'],
+        heading: ['Barlow Condensed', 'sans-serif'],
       },
       borderRadius: {
         xl: '0.75rem',
