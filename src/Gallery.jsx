@@ -5,7 +5,6 @@ export default function Gallery() {
     '/gallery/Image-3.jpeg',
     '/gallery/Image-4.jpeg',
     '/gallery/Image-5.jpeg',
-    '/gallery/Image-6.jpeg',
     '/gallery/Image-7.jpeg',
     '/gallery/Image-8.jpeg',
     '/gallery/Image-9.jpeg',
