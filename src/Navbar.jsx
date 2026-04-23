@@ -39,7 +39,7 @@ export default function Navbar() {
           <Link to="/" className="flex items-center gap-3 group">
             <div className="flex items-center justify-center group-hover:scale-105 transition-transform duration-300">
               <img
-                src="/logo.jpg"
+                src="/logo/logo.jpg"
                 alt="Perfect Finish Pros logo"
                 className="h-12 w-auto object-contain"
               />
